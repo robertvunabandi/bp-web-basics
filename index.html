@@ -66,7 +66,12 @@ INSERT INFORMATIONS ABOUT YOURSELF. THEN, OPEN THE FILE INDEX.HTML
 <p>
 	Pusheen is cool! 
 	<br>
-	<img src="pusheen.gif" />
+	<!-- this works -->
+	<img src="./assets/pusheen.gif" />
+	<!-- this also works -->
+	<img src="assets/pusheen.gif" />
+	<!-- this does not works :( (i.e. it doesn't link the image to our web page) -->
+	<img src="/assets/pusheen.gif" />
 </p>
 </body>
 </html>
