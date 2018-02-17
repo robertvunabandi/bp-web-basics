@@ -1,10 +1,13 @@
 /* style that applies to every single HTML tag */
 * {
 	font-family: Helvetica;
+	color: #FFFF00;
 }
 /* style the body tag, which has everything inside itself */
 body {
 	padding: 20px;
+	background-image: url("assets/mountain.jpg");
+	background-color: purple;
 }
 /* style your header 1's */
 h1 {
@@ -16,7 +19,7 @@ h2 {
 }
 /* style your paragraphs */
 p {
-
+	text-shadow: 1px 1px #01FAFA, -1px 1px #01FAFA;
 }
 /* style the elements in your list */
 li {
@@ -46,6 +49,7 @@ the styling from before.
 */
 
 /*
+
 * {
 	transition: all 200ms;
 	text-align: center;
