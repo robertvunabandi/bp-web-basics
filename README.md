@@ -104,6 +104,10 @@ What we can also do is set the background as an image. Look up online how to do 
 
 **ACTIONABLE:** Set the background as the mountain image that you can find inside `/assets` directory. Set it using the CSS. 
 
+--- 
+
+Now, use your imagination to do even more tricks using CSS. You can literally do anything!
+
 
 ## **BONUS:** Get Even Dirtier!
 
