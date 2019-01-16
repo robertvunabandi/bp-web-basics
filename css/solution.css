@@ -4,13 +4,17 @@
   text-align: center;
 }
 
-body {
-	padding: 20px;
-	background-image: url("assets/mountain.jpg");
+h1 {
+	color: blue;
 }
 
 p span {
 	font-weight: bold;
+}
+
+body {
+	padding: 20px;
+	background-image: url("assets/mountain.jpg");
 }
 
 
