@@ -65,18 +65,66 @@ Refresh the page to see the changes!
 
 Now, it's time to learn about CSS's box model. Remember how every element in the HTML is a box? Well, each of those elements have the following:
 
-- Margin
-- Border
-- Padding
+- **Margin:** The space between what's outside the box and its border
+- **Border:** The border of the box
+- **Padding:** Space between what's inside the box and its border
 
 ![CSS Box Model](./assets/css-box-model.png)
 
-***TODO: Continue with this***
+Each of those properties of the box can be edited.
+
+- **Margin:** 
+  - The margin can have a size. 
+  You can edit the left, right, top, and bottom margins separately.
+- **Border:** 
+  - The border has the same properties as margin, but with more.
+  - This is the only property that has a radius (with `border-radius`) and color (with `border-color`).
+- **Padding:** 
+  - The padding is similar to margin in terms of its properties.
+
+Each of these can have even more properties. Play around with them.
+
+**ACTIONABLE:** Make the padding of the `body` 20 pixels.
+
+--- 
+
+This is a good time to introduce [CSS units](https://www.w3schools.com/cssref/css_units.asp). CSS uses both absolute and relative units. 
+
+Absolute units are units that don't change regardless of the location. For instance, a meter in the US is the same exact meter in South Africa. So, the meter is an absolute metric. CSS has its own set of absolute metrics (see the link above).
+
+CSS also has relative ones. These are metrics that depends on many things. Some of them depend on the width or height of the browser window, some depend on the default size of the browser window, and some depend on the parent html elements. The `rem` depends on the browser's default size, which can be edited by the users. It may be worth also looking at [the difference between `rem` and `em`](https://j.eremy.net/confused-about-rem-and-em/) (where `em` is kind of a close relative of `rem`).
+
+**ACTIONABLE:** Change the font size of the `p` elements to be `1.2rem`.
+
+---
+
+Backgrounds are great to play with. There are two things that can go with backgrounds: colors and images. CSS uses a set of predefined colors (such as `red`, `blue`, etc), and also more standard color values such as `HEX`, `HSL`, and `RGB`. It even has `HSLA` and `RGBA` where the `A` stands for `alpha` (in other words, opacity). These are more useful to gain access to a much wider range of `8-bit` colors. 
+
+What we can also do is set the background as an image. Look up online how to do that.
+
+**ACTIONABLE:** Set the background as the mountain image that you can find inside `/assets` directory. Set it using the CSS. 
 
 
 ## **BONUS:** Get Even Dirtier!
 
 **ACTIONABLE:** Use [Google Fonts](https://fonts.google.com/) to pick and use an even cooler font in your website. 
 
-**ACTIONABLE:**
+---
 
+Have you heard of [Bezier' Curves](https://en.wikipedia.org/wiki/B%C3%A9zier_curve)?
+
+**ACTIONABLE:** Try the following CSS edit to an element of you choice (must have display as `inline-block` or `block` to work). Make sure to replace `selector` with the element of your choice.
+
+```css
+selector {
+	padding-left: 20rem;
+	transition: all 2s;
+	transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
+}
+```
+
+---
+
+Did you know you could create CSS variables? 
+
+**ACTIONABLE:** Define variables `--primary-color`, `--secondary-color`, and `--tertiary-color` using [CSS variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables) and use only those variables in your CSS instead of using colors directly. 

@@ -17,6 +17,9 @@ body {
 	background-image: url("assets/mountain.jpg");
 }
 
+p {
+	font-size: 1.2rem;
+}
 
 /* extra stuffs added for learning purposes */
 
@@ -39,7 +42,6 @@ body p, body h2 {
 	margin: 1rem;
 }
 p {
-	font-size: 1.2rem;
 	text-shadow: 1px 1px #01FAFA, -1px 1px #01FAFA;
 }
 h2 {
