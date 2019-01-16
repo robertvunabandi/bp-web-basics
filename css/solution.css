@@ -1,12 +1,26 @@
+/* solutions from the guide on the README */
+* {
+  transition: all 200ms;
+  text-align: center;
+}
+
+body {
+	padding: 20px;
+	background-image: url("assets/mountain.jpg");
+}
+
+p span {
+	font-weight: bold;
+}
+
+
+/* extra stuffs added for learning purposes */
+
 * {
 	font-family: Helvetica;
-	transition: all 200ms;
-	text-align: center;
 }
 body {
 	margin: 0;
-	padding: 20px;
-	background-image: url("assets/mountain.jpg");
 	background-color: purple;
 }
 h1 {
