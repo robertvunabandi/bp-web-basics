@@ -106,7 +106,15 @@ What we can also do is set the background as an image. Look up online how to do 
 
 --- 
 
-Now, use your imagination to do even more tricks using CSS. You can literally do anything!
+Now, use your imagination to do even more tricks using CSS. You can literally do anything! Try the following:
+
+**ACTIONABLE:** Add another HTML page to this website and create a link to it back and forth. 
+
+**ACTIONABLE:** Add some shadow. You have the `text-shadow` and `box-shadow` properties to mess around with.
+
+**ACTIONABLE:** Animate the page using `transition` and other CSS selectors (such as the `:hover` or `:focus` selector).
+
+**ACTIONABLE:** Add some padding and margin here and there. Is there anything you notice about margins and paddings?
 
 
 ## **BONUS:** Get Even Dirtier!
